@@ -1,0 +1,41 @@
+# Navegar a la carpeta donde deseas crear el repositorio
+cd /ruta/a/tu/carpeta
+
+# Crear la carpeta full-stack JavaScript
+mkdir \"full-stack JavaScript\"
+
+# Navegar a la carpeta full-stack JavaScript
+cd \"full-stack JavaScript\"
+
+# Inicializar un nuevo repositorio de Git
+git init
+
+# Verificar el estado del repositorio
+git status
+
+# Crear el archivo contenidos.txt con el contenido especificado
+Touch contenidos.txt
+
+# escribir en el archivo anteriormente creado
+
+Nano ejericio1.txt
+
+# Agregar archivos para subir al repositorio 
+
+Git add contenidos.txt ejercicio1.txt
+
+# Agregar comentarios en donde se describe la tarea o los cambios realizados en los archivos que se subirán 
+
+Git commit -m "se crear archivos contenido.txt y ejercicio1.txt en el cual se describe el funcionamiento básico de git"
+
+# Crear la rama necesaria para cada repositorio 
+git branch -M main
+
+# Vincular el repositorio con gitHub para poder subir el repositorio 
+git remote add origin https://github.com/walterpacheco/full-stack-javascript.git
+
+# Solicitar subir los archivos al repositorio.
+git push -u origin main
+
+
+
